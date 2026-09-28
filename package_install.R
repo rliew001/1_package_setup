@@ -11,3 +11,7 @@ pkgs <- c("tidyverse","psych","ggforce","patchwork", "rstatix",
           "visdat", "janitor", "here", "plotly", "DataExplorer", "knitr")
 
 lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
+
+# hello world 
+# second testing you are going to be deleted 
+var1 <- readxl("/Users/Ryanl/OneDrive/Documents/MATLAB/Task_Scheduling/Ts_subject_level_fit.xlsx")
